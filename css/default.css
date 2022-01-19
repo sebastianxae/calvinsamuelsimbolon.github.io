@@ -1,0 +1,219 @@
+/* Install Fonts */
+@font-face {
+    font-family: "Bebas";
+    src: url(/asset/fonts/bebas-neue-font/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(/asset/fonts/playfair-display-font/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(/asset/fonts/poppins-font/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(/asset/fonts/poppins-font/Poppins-Bold.ttf);
+}
+
+/* General */
+
+* {
+    font-family: "Poppins";
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    /* top: 0px;
+    left: 0px;
+    right: 0px; */
+    color: #fff;
+    background: linear-gradient(118.3deg, #4d18e4 2.38%, #6f15c6 39.58%, #543170 100%);
+}
+
+/* Navbar */
+
+.navbar-brand {
+    display: inline-flex;
+}
+
+.navbar-brand p {
+    font-family: "Poppins Bold";
+    font-size: 20px;
+    margin: 5px 10px 5px 10px;
+}
+
+/* Menu  */
+
+.navbar-nav li {
+    /* border: 1px solid; */
+    margin: 0 20px 0 20px;
+}
+
+.navbar-nav li .active {
+    font-weight: bold;
+}
+
+/* Jumbotron Content */
+.jumbo-content {
+    max-width: 1440px;
+    margin: 0px 100px 0px 100px;
+}
+
+.jmb-letter h1 {
+    font-family: "Poppins Bold";
+    font-size: 79px;
+    max-width: 750px;
+    margin: 50px 0px 10px 50px;
+}
+
+.jmb-letter p {
+    font-family: "Poppins";
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 550px;
+    margin: 0px 0px 10px 50px;
+}
+
+.jmb-img {
+    width: 420px;
+    margin-right: 50px;
+}
+
+/* konten */
+
+.konten-bg-light {
+    width: 100%;
+    background-color: #efe3ff;
+    color: #35075d;
+}
+
+.konten-bg-dark {
+    width: 100%;
+    background-color: #581b8e;
+}
+
+.konten {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.konten-pengantar {
+    width: 100%;
+    background-color: #581b8e;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold-bg-dark {
+    color: #ffffff;
+}
+
+/* Konten 1 mulai */
+
+.konten-1 {
+    display: flex;
+}
+
+.konten-1 h1 {
+    /* border: 1px solid; */
+    width: 600px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-left: 80px;
+    font-family: "Poppins Bold";
+    font-size: 77px;
+    /* max-width: 550px; */
+}
+
+.konten-1 .paragraph-konten {
+    /* border: 1px solid; */
+    width: 550px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-left: 30px;
+    font: "Poppins";
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link-content-1,
+.link-content-1:active {
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.link-content-1:hover {
+    color: #fff;
+}
+
+/* Konten 1 selesai */
+/* Konten 2 Mulai */
+.konten-2 {
+    display: inline-block;
+}
+
+.konten-2a {
+    display: flex;
+}
+
+#k2-big-img {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 700px;
+}
+
+.konten-2-img-dwn {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    text-align: right;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+#k2-small-img-1 {
+    margin: auto;
+    width: 325px;
+}
+
+#k2-small-img-2 {
+    margin-top: 50px;
+    width: 325px;
+}
+
+.link-content-2,
+.link-content-2:active {
+    color: rgba(255, 255, 255, 0.801);
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.link-content-2:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* Akhir Konten 2 */
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a1677;
+    color: #fff;
+}

@@ -1,0 +1,101 @@
+@media screen and (min-width: 310px) and (max-width: 600px) {
+    /* Jumbotrone */
+
+    .jumbo-content {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .jmb-letter {
+        width: fit-content;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .jmb-letter h1 {
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .jmb-letter p {
+        font-size: 12px;
+    }
+
+    .jmb-img {
+        /* width: 115px; */
+        width: 0;
+    }
+
+    /* Akhir Jumbotrone */
+    /* Koten 1  */
+    .konten-1 {
+        width: 100%;
+        /* justify-content: center; */
+        display: block;
+        border: 1px solid transparent;
+    }
+
+    .konten-1 h1 {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        width: 250px;
+        font-size: 29px;
+    }
+
+    .konten-1 .paragraph-konten {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+        width: 250px;
+    }
+
+    /* Akhir Konten 1 */
+    /* Konten 2 */
+
+    .konten-2a {
+        justify-content: center;
+        width: 100%;
+        display: block;
+        border: 1px solid transparent;
+    }
+
+    #k2-big-img {
+        width: 80%;
+        margin-bottom: 0;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .konten-2-img-dwn {
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    #k2-small-img-1 {
+        margin-bottom: 0;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    #k2-small-img-2 {
+        margin-top: 30px;
+        margin-bottom: 0;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .konten-2 a {
+        font-size: 75%;
+    }
+
+    /* Akhir Konten 2 */
+}
